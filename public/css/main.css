@@ -1,0 +1,269 @@
+@font-face {
+  font-family:'Arimo';
+  font-style:normal;
+  font-weight:400;
+  src:local('Arimo'), url(../image/p3aCFJ94SspCkx7a_Eq27g.woff) format('woff');
+}
+@font-face {
+  font-family:'Arimo';
+  font-style:normal;
+  font-weight:700;
+  src:local('Arimo Bold'), local('Arimo-Bold'), url(../image/jxQwP5YURUBWHPQ1ogmncPesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+  font-family:'Arimo';
+  font-style:italic;
+  font-weight:400;
+  src:local('Arimo Italic'), local('Arimo-Italic'), url(../image/OcfhWHTBS87uqkVQ4u4xFA.woff) format('woff');
+}
+@font-face {
+  font-family:'Arimo';
+  font-style:italic;
+  font-weight:700;
+  src:local('Arimo Bold Italic'), local('Arimo-BoldItalic'), url(../image/twKtDH0n_vHUmzdHOWAskRsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+body {
+	font-size:15px;font-family:'Arimo';padding:0px;overflow-x:hidden;
+	background:#f7f7f7;color:#363f48;
+    
+    max-width: 1200px;
+    margin: 0 auto;
+}
+*{outline:none;}a {text-decoration:none;}img {border:none;}
+/*.Wrapper {width:100%;}.Clear {clear:both;} */
+.Wrapper {width:980px;margin:auto;}.Clear {clear:both;}
+.BannerWrapper a img {width: 110px;height: 453px;}
+/*#Header {width:1200px;margin:auto;height:103px;background:#363f48 url(../image/header_bg.png) no-repeat;}*/
+
+#Header {height:103px;background:#363f48 url(../image/header_bg.png) no-repeat; padding-left: 80px;}
+#Header .Logo {display:block;background:url(../image/logo.png) 0px 20px no-repeat;width:156px;height:90px;float:left;}
+#Header ul {margin:5px 5px 0px 0px;padding:0px;float:right;}
+#Header ul li {float:left;list-style:none;width:93px;height:93px;margin-left:10px;}
+#Header ul li a {display:block;background:#292d31;text-align:center;height:58px;border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;color:#fff;padding-top:35px;cursor:pointer;}
+#Header ul li .Hover {display:block;background:#4a5157;text-align:center;height:58px;border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;padding-top:35px;}
+#Header ul .User {display:none;}
+#Banner {background:url(../image/banner_bg.jpg) repeat-x 0px 97px;height:360px;}
+#Banner .Wrapper {position:relative;height:100%;}
+#Banner .UFO {width:226px;height:183px;background:url(../image/banner_ufo.png) no-repeat;position:absolute;top:110px;left:115px;cursor:pointer;}
+#Banner h1 {position:absolute;right:85px;top:-30px;font-size:35px;text-align:right;width:600px;text-align:center;}
+#Banner h2 {position:absolute;right:70px;bottom:0px;font-size:35px;display:inline;width:600px;text-align:center;}
+
+#Banner .progressPanel {position:absolute;width:600px;top:150px;right:70px;}
+#Banner .progressPanel .Bar {position:relative;width:500px;margin:auto;text-align:center;text-transform:uppercase;font-size:17px;}
+#Banner .progressPanel .Bar .Background {position:absolute;background:#51565c;border:3px solid #363f48;border-radius:5px;-moz-border-radius:5px;-o-border-radius:5px;-webkit-border-radius:5px;width:500px;height:34px;opacity:0.5;cursor: pointer;}
+#Banner .progressPanel .Bar span {display:block;position:absolute;text-align:center;width:100%;top:9px;cursor: pointer;}
+#Banner input[type='file']{display:none;}
+
+#uploadPanel {background:#222c38;border-top:5px solid #161e27;color:#fff;font-family:'Arimo';overflow:hidden;height:0px;}
+#uploadPanel h1 {font-size:30px;}
+#uploadPanel .Wrapper {width:980px;margin:auto;}
+#uploadPanel .File {user-select:none;-moz-user-select:none;-webkit-user-select:none;margin-bottom:20px;}
+#uploadPanel .File a {color:#fff;}
+#uploadPanel .File .Info .Title {display:block;width:500px;overflow:hidden;white-space: nowrap;text-overflow: ellipsis;-o-text-overflow: ellipsis;-ms-text-overflow: ellipsis;float:left;}
+#uploadPanel .File .Info .Speed {float:right;}
+#uploadPanel .File .progressBar {height:30px;color:#fff;background:#323c49;text-align:center;margin-top:2px;position:relative;}
+#uploadPanel .File .progressBar .Percent {width:300px;position:absolute;top:0px;left:0px;width:0px;height:30px;background:#677c98;z-index:0;}
+#uploadPanel .File .progressBar .Content {position:absolute;width:100%;height:25px;padding-top:5px;text-align:center;z-index:1;}
+#uploadPanel .File .progressBar .Error {color:#d31e33;font-weight:bold;font-style:italic;}
+#Body {background:#363f48;border-bottom:25px solid #161e27;padding:20px 0px 0px 10px;color:#fff;border-top:25px solid #161e27;}
+#Body h1 {color:#fff;font-size:18px;text-transform:uppercase;margin:0px;padding:0px;}
+#Body .Intro .leftSide {width:420px;float:left;text-align:justify;margin-right:60px;}
+#Body .Intro .leftSide p {margin:15px 0px 0px 0px;line-height:23px;}
+#Body .Intro .rightSide {float:left;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;}
+#Body .Intro .rightSide h1 {margin-bottom:15px;}
+#Body .Intro .rightSide .Field {padding:5px 0px 5px 0px;}
+#Body .Intro .rightSide .Field .leftColumn {font-size:15px;font-weight:bold;font-style:italic;width:150px;float:left;}
+#Body .Intro .rightSide .Field .rightColumn {float:left;width:350px;}
+#Body .Intro .rightSide .Field .rightColumn input[type='text'],#Body .rightSide .Field .rightColumn input[type='password']{padding:3px 40px 3px 10px;height:20px;width:290px;border:1px solid #fff;border-radius:7px;-webkit-border-radius:7px;-moz-border-radius:7px;-o-border-radius:7px;font-size:15px;font-family:'Arimo';}
+#Body .Intro .rightSide .Field .rightColumn .Disabled {cursor:not-allowed;}
+#Body .Intro .rightSide .Field .Valid {background:#fff url(../image/pattern.png) no-repeat right 3px;border:1px solid #1cc959 !important;}
+#Body .Intro .rightSide .Field .Invalid {background:#fff url(../image/pattern.png) no-repeat right -44px;border:1px solid #c91c1c !important;}
+#Body .Intro .rightSide .Field .Agreement {display:block;background:url(../image/pattern.png) no-repeat left -93px;padding:5px 0px 5px 35px;color:#fff;float:right;margin-right:8px;cursor:pointer;}
+#Body .Intro .rightSide .Field .AgreementOK {background:url(../image/pattern.png) no-repeat left -141px;}
+#Body .Intro .rightSide #frmRegister .Register {color:#fff;background:#3b77b2;display:block;padding:5px 10px;width:100px;text-align:center;text-transform:uppercase;font-weight:bold;border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;-o-border-radius:7px;float:right;margin-right:8px;}
+#Body .Intro .rightSide #frmRegister .Register:hover {background:#568cc1;}
+#Body .Intro .rightSide #frmRegister .Login {color:#fff;background:#5c7484;display:block;padding:5px 10px;width:100px;text-align:center;text-transform:uppercase;font-weight:bold;border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;-o-border-radius:7px;float:right;margin-right:8px;}
+#Body .Intro .rightSide #frmRegister .Login:hover {background:#6d8799;}
+#Body .Intro .rightSide #frmRegister input[type='submit']{display:none;}
+#Body .Intro .rightSide #frmLogin .Login {color:#fff;background:#3b77b2;display:block;padding:5px 10px;width:100px;text-align:center;text-transform:uppercase;font-weight:bold;border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;-o-border-radius:7px;float:right;margin-right:8px;}
+#Body .Intro .rightSide #frmLogin .Login:hover {background:#568cc1;}
+#Body .Intro .rightSide #frmLogin .Register {color:#fff;background:#5c7484;display:block;padding:5px 10px;width:100px;text-align:center;text-transform:uppercase;font-weight:bold;border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;-o-border-radius:7px;float:right;margin-right:8px;}
+#Body .Intro .rightSide #frmLogin .Register:hover {background:#6d8799;}
+#Body .Intro .rightSide #frmLogin .forgotPassword {color:#fff;background:#5c7484;display:block;padding:5px 10px;min-width:100px;text-align:center;text-transform:uppercase;font-weight:bold;border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;-o-border-radius:7px;float:right;margin-right:8px;}
+#Body .Intro .rightSide #frmLogin .forgotPassword:hover {background:#6d8799;}
+#Body .Intro .rightSide .Field .RegisterDisabled {cursor:not-allowed;background:#626262;}
+#Body .Intro .rightSide .Field .RegisterDisabled:hover {cursor:not-allowed;background:#626262;}
+#Body .Intro .rightSide .Field .AgreementDisabled {cursor:not-allowed;}
+#Body .Intro .rightSide #frmLogin {display:none;}
+#Body .Intro .rightSide #frmLogin input[type='submit']{display:none;}
+#Body .userMessage {display:none;}
+#Body .userMessage a {color:#fff;}
+#downloadBanner {background:url(../image/banner_bg.jpg) repeat-x bottom center;height:250px;}
+#downloadBanner .Wrapper {position:relative;height:100%;}
+#downloadBanner .UFO {width:226px;height:120px;background:url(../image/banner_ufo.png) no-repeat 0px -70px;position:absolute;top:70px;left:0px;cursor:pointer;}
+#downloadBanner h1 {position:absolute;right:0px;top:80px;font-size:35px;text-align:right;width:600px;text-align:center;}
+
+
+#Download {background:#363f48;border-bottom:25px solid #161e27;padding:20px 5px;color:#fff;border-top:25px solid #161e27;}
+#Download .Content h1 {font-size:25px;text-transform:uppercase;}
+#Download .Content p {font-size:20px;}
+#Download .Content a {color:#fff;}
+#Download .DownloadHeader {margin:2px 0px 2px 0px;}
+#Download .DownloadHeader .Ads {width:750px;float:left;text-align:center;height:90px;overflow:hidden;}
+#Download .DownloadHeader .NormalButton {display:block;width:230px;height:55px;padding-top:35px;text-align:center;float:left;background:#4a5157;color:#fff;text-transform:uppercase;cursor:pointer;user-select:none;-moz-user-select:none;-webkit-user-select:none;font-size:20px;}
+#Download .DownloadHeader .NormalButton:hover {background:#292d31;color:#fff;}
+#Download .Download {min-height:300px;}
+#Download .Download .Button {display:block;width:230px;height:25px;padding-top:2px;text-align:center;float:left;background:#4a5157;color:#fff;text-transform:uppercase;cursor:pointer;user-select:none;-moz-user-select:none;-webkit-user-select:none;font-size:20px;margin: 2px 2px 2px 27%}
+#Download .Download .Button:hover {background:#292d31;color:#fff;}
+#Download .Download .NormalButton {display:block;width:230px;height:25px;padding-top:2px;text-align:center;float:left;background:#4a5157;color:#fff;text-transform:uppercase;cursor:pointer;user-select:none;-moz-user-select:none;-webkit-user-select:none;font-size:20px;margin: 4px;}
+#Download .Download .NormalButton:hover {background:#292d31;color:#fff;}
+
+#Download .Banner-left {width: 110px; height: 550px; background:url(../image/download-gia-monitor.gif); float: left;}
+#Download .Banner-right {width: 110px; height: 550px; background:url(../image/download-ssd.gif); float: right; background-repeat: no-repeat;}
+.Bn-index-left {width: 110px; height: 453px; background:url(../image/index-ssd.gif); float: left;}
+.Bn-index-right {width: 110px; height: 453px; background:url(../image/dota-emobi.gif); float: right;}
+
+#UserCP  {background:#363f48;border-bottom:25px solid #161e27;padding:20px 0px 0px 10px;color:#fff;border-top:25px solid #161e27;}
+#UserCP h1 {font-size:25px;text-transform:uppercase;}
+#UserCP h2 {font-size:20px;text-transform:uppercase;}
+#frmProfileInfo a {color:#fff;}
+#frmProfileInfo .Field {padding:5px 0px 5px 0px;}
+#frmProfileInfo .Field .Left {float:left;width:200px;}
+#frmProfileInfo .Field .Right {float:left;}
+#frmProfileInfo .Field .Right input[type='text'],#frmProfileInfo .Field .Right input[type='password']{padding:3px 40px 3px 10px;height:20px;width:290px;border:1px solid #fff;border-radius:7px;-webkit-border-radius:7px;-moz-border-radius:7px;-o-border-radius:7px;font-size:15px;font-family:'Arimo';}
+#frmProfileInfo .Field input[type='submit'],#frmProfileInfo .Field input[type='button'],#frmProfileInfo .Field input[type='reset'] {color:#fff;background:#5c7484;padding:5px 10px;width:100px;text-align:center;text-transform:uppercase;font-weight:bold;border:none;border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;-o-border-radius:7px;margin-right:8px;cursor:pointer;}
+#frmProfileInfo .Field input[type='submit'] {background:#3b77b2;}
+#frmProfileInfo .Field input[type='submit']:hover {background:#568cc1;}
+#frmProfileInfo .Field input[type='button']:hover,#frmProfileInfo .Field input[type='reset']:hover {background:#6d8799;}
+#frmProfileInfo .Field .Valid {background:#fff url(../image/pattern.png) no-repeat right 3px;border:1px solid #1cc959 !important;}
+#frmProfileInfo .Field .Invalid {background:#fff url(../image/pattern.png) no-repeat right -44px;border:1px solid #c91c1c !important;}
+
+.inputForm .Field {padding:5px 0px 5px 0px;}
+.inputForm .Field .Left {float:left;width:200px;}
+.inputForm .Field .Right {float:left;}
+.inputForm .Field .Right input[type='text'],.inputForm .Field .Right input[type='password']{padding:3px 40px 3px 10px;height:20px;width:290px;border:1px solid #fff;border-radius:7px;-webkit-border-radius:7px;-moz-border-radius:7px;-o-border-radius:7px;font-size:15px;font-family:'Arimo';}
+.inputForm .Field input[type='submit'],.inputForm .Field input[type='button'],.inputForm .Field input[type='reset'] {color:#fff;background:#5c7484;padding:5px 10px;min-width:100px;text-align:center;text-transform:uppercase;font-weight:bold;border:none;border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;-o-border-radius:7px;margin-right:8px;cursor:pointer;}
+.inputForm .Field input[type='submit'] {background:#3b77b2;}
+.inputForm .Field input[type='submit']:hover {background:#568cc1;}
+.inputForm .Field input[type='button']:hover,.inputForm .Field input[type='reset']:hover {background:#6d8799;}
+.inputForm .Field .Valid {background:#fff url(../image/pattern.png) no-repeat right 3px;border:1px solid #1cc959 !important;}
+.inputForm .Field .Invalid {background:#fff url(../image/pattern.png) no-repeat right -44px;border:1px solid #c91c1c !important;}
+
+#fileManager  {background:#363f48;border-bottom:25px solid #161e27;padding-top: 20px;color:#fff;border-top:25px solid #161e27;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;}
+#fileManager h1 {padding-left: 10px;font-size:25px;text-transform:uppercase;}
+#fileManager p,#fileManager ul {padding-left: 10px;}
+#fileManager h2 {font-size:20px;text-transform:uppercase;}
+#fileManager input[type='submit'],#fileManager input[type='button'],#fileManager input[type='reset'] {color:#fff;background:#3b77b2;padding:5px 10px;text-align:center;text-transform:uppercase;font-weight:bold;border:none;border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;-o-border-radius:7px;margin-right:8px;cursor:pointer;}
+#fileManager input[type='submit']:hover {background:#568cc1;}
+#fileManager .cmdRename {background:#999999 !important;}
+#fileManager input[type='button']:hover,#fileManager input[type='reset']:hover {background:#6d8799;}
+#fileManager input[type='text'],#fileManager input[type='password']{padding:3px 10px 3px 10px;height:20px;width:120px;margin-right:5px;border:1px solid #fff;border-radius:7px;-webkit-border-radius:7px;-moz-border-radius:7px;-o-border-radius:7px;font-size:15px;font-family:'Arimo';}
+#fileManager .Red {background:#b22f2f !important;}
+#fileManager .Red:hover {background:#a91616 !important;}
+#fileManager .Green {background:#5ac35a !important;}
+#fileManager .Green:hover {background:#33b133 !important;}
+#fileManager .listFile {margin-top:20px;}
+#fileManager .listFile .leftSide{float:left;width:24%;min-height:200px;}
+#fileManager .listFile .leftSide ul {margin:0px;padding:0px;}
+#fileManager .listFile .leftSide ul li {list-style:none;margin:0px 0px 1px 0px;padding:0px;color:#fff;padding-left:10px;}
+#fileManager .listFile .leftSide ul li:hover {background:#55616c;}
+#fileManager .listFile .leftSide ul .Hover {list-style:none;margin:0px 0px 1px 0px;padding:0px;color:#fff;padding-left:10px;background:#55616c;}
+#fileManager .listFile .leftSide ul li a {color:#fff;display:block;padding:7px 0px 7px 30px;}
+#fileManager .listFile .leftSide ul li .Root {background:url(../image/tree_root.png) no-repeat center left;}
+#fileManager .listFile .leftSide ul li .Deleted {background:url(../image/tree_deleted.png) no-repeat center left;}
+#fileManager .listFile .leftSide ul li .Mail {background:url(../image/tree_mail.png) no-repeat center left;}
+#fileManager .listFile .leftSide ul li .Active {background:url(../image/tree_clipboard.png) no-repeat center left;}
+#fileManager .listFile .leftSide ul li .Clipboard {background:url(../image/tree_light.png) no-repeat center left;}
+#fileManager .listFile .leftSide ul li .Totalview {background:url(../image/tree_visit.png) no-repeat center left;}
+#fileManager .listFile .rightSide{float:left;border-left:1px solid #26313b;width:75.9%;min-height:200px;}
+#fileManager .listFile .rightSide .listItem {margin:0px;padding:0px;}
+#fileManager .listFile .rightSide .listItem li {list-style:none;padding:0px;margin:0px;background:#3c464f;cursor:pointer;border-bottom:1px solid #363f48;}
+#fileManager .listFile .rightSide .listItem li:hover {background:#55616c;}
+#fileManager .listFile .rightSide .listItem .Hover {list-style:none;padding:0px;margin:0px;background:#55616c;}
+#fileManager .listFile .rightSide .listItem li a {display:inline-block;padding:7px 0px 7px 40px;color:#fff;vertical-align:top}
+#fileManager .listFile .rightSide .listItem li a .Name {float:left;width:288px;overflow:hidden;white-space: nowrap;text-overflow: ellipsis;-o-text-overflow: ellipsis;-ms-text-overflow: ellipsis;}
+#fileManager .listFile .rightSide .listItem li a .Size {float:left;width:90px;padding-right:10px;text-align:right;}
+#fileManager .listFile .rightSide .listItem li a .Download {float:left;width:65px;margin-right:10px;padding-right:25px;background:url(../image/tree_download.png) no-repeat center right;text-align:right;}
+#fileManager .listFile .rightSide .listItem  a.reupload {float:right;margin-top:-33px;cursor:pointer; padding:7px 0px 7px 40px;padding-right:25px;background:url(../image/cloud-error.png) no-repeat center right;text-align:right;  display: inline-block;}
+#fileManager .listFile .rightSide .listItem li a .Visit {float:left;width:70px;margin-right:10px;padding-right:20px;background:url(../image/tree_visit.png) no-repeat center right;text-align:right;}
+#fileManager .listFile .rightSide .listItem li a .Date {float:left;width:150px;text-align:center;}
+#fileManager .listFile .rightSide .listItem li .Folder {background:url(../image/tree_folder.png) no-repeat 10px 7px;}
+#fileManager #breadcrumb .Folder {
+    background:url(../image/tree_folder.png) no-repeat 10px 7px;
+    color: #fff;
+    display: inline-block;
+    padding: 7px 0 7px 30px;
+    vertical-align: top;
+    cursor: pointer;
+}
+#fileManager #breadcrumb span{
+    color: #fff;
+    display: inline-block;
+    padding: 7px 0 7px 10px;
+    vertical-align: top;
+}
+#fileManager .listFile .rightSide .listItem li .File {background:url(../image/tree_file.png) no-repeat 10px 7px;}
+#fileManager .listFile .rightSide .listItem li .Password .Name {background:url(../image/context_lock.png) no-repeat 0px -28px;padding-left:30px;width:258px;}
+
+#contextMenu {margin:0px;padding:0px;position:absolute;min-width:200px;top:520px;left:600px;background:#e5eaee;box-shadow:5px 5px 3px #262626;user-select:none;-webkit-user-select:none;-o-user-select:none;-moz-user-select:none;}
+#contextMenu li {list-style:none;padding:0px;margin:0px;}
+#contextMenu li a {display:block;padding:5px 5px 5px 50px;cursor:pointer;}
+#contextMenu li .Link {background:url(../image/context_link.png) no-repeat 10px 5px;}
+#contextMenu li .Link:hover {background-position:10px -20px;}
+#contextMenu li .Download {background:url(../image/context_download.png) no-repeat 10px 7px;}
+#contextMenu li .Download:hover {background-position:10px 20px;}
+#contextMenu li .Rename {background:url(../image/context_rename.png) no-repeat 10px 5px;}
+#contextMenu li .Rename:hover {background-position:10px -22px;}
+#contextMenu li .Copy {background:url(../image/context_copy.png) no-repeat 10px 5px;}
+#contextMenu li .Copy:hover {background-position:10px -22px;}
+#contextMenu li .Cut {background:url(../image/context_cut.png) no-repeat 10px 5px;}
+#contextMenu li .Cut:hover {background-position:10px -22px;}
+#contextMenu li .Paste {background:url(../image/context_paste.png) no-repeat 10px 5px;}
+#contextMenu li .Paste:hover {background-position:10px -22px;}
+#contextMenu li .Delete {background:url(../image/context_delete.png) no-repeat 10px 5px;}
+#contextMenu li .Delete:hover {background-position:10px -22px;}
+#contextMenu li .Lock {background:url(../image/context_lock.png) no-repeat 10px 5px;}
+#contextMenu li .Lock:hover {background-position:10px -22px;}
+#contextMenu li .Unlock {background:url(../image/context_unlock.png) no-repeat 8px 5px;}
+#contextMenu li .Unlock:hover {background-position:8px -22px;}
+#contextMenu li:hover {background:#7f8b94;color:#fff;}
+
+#Footer {padding:10px 0px;color:#363f48;}
+#Footer .Links {text-align:center;margin:0px;padding:0px;margin:auto;width:770px;}
+#Footer .Links li:first-child {list-style:none;margin-left:0px;}
+#Footer .Links li {float:left;padding:10px;margin-left:20px;}
+#Footer .Links a {color:#363f48;}
+
+.showAlert {position:fixed;top:0px;left:0px;width:100%;height:100%;background:#000;z-index:99999;opacity:0.7;display:none;}
+#listAlertLink {overflow:auto;max-height:180px;cursor:pointer;}
+#listAlertLink a {color:#fff;}
+.showAlertContent {position:fixed;left:0px;width:100%;padding:20px 0px;background:#000;z-index:999999;opacity:0.9;display:none;border-top:1px solid #5d5d5d;border-bottom:1px solid #5d5d5d;}
+.showAlertContent .Wrapper {width:980px;margin:auto;color:#fff;padding:10px;}
+.showAlertContent .Wrapper h1 {font-size:20px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;}
+.showAlertContent .Wrapper .Close {float:right;margin:1px;display:block;min-width:100px;padding:7px 5px 5px 5px;background:#434343;border:1px solid #fff;text-transform:uppercase;cursor:pointer;text-align:center;color:#fff;margin-top:10px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;}
+.showAlertContent .Wrapper .Close:hover {background:#000;}
+
+#Contact  {background:#363f48;border-bottom:25px solid #161e27;padding:20px 0px 0px 10px;color:#fff;border-top:25px solid #161e27;}
+#Contact h1 {font-size:25px;text-transform:uppercase;}
+#Contact h2 {font-size:20px;text-transform:uppercase;}
+#Contact input[type='submit'],#Contact input[type='button'],#Contact input[type='reset'] {color:#fff;background:#3b77b2;padding:5px 10px;text-align:center;text-transform:uppercase;font-weight:bold;border:none;border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;-o-border-radius:7px;margin-right:8px;cursor:pointer;}
+#Contact input[type='submit']:hover {background:#568cc1;}
+#Contact .cmdRename {background:#999999 !important;}
+#Contact input[type='button']:hover,#Contact input[type='reset']:hover {background:#6d8799;}
+#Contact input[type='text'],#Contact input[type='password']{padding:3px 10px 3px 10px;height:20px;width:120px;margin-right:5px;border:1px solid #fff;border-radius:7px;-webkit-border-radius:7px;-moz-border-radius:7px;-o-border-radius:7px;font-size:15px;font-family:'Arimo';}
+#Contact a {color:#fff;}
+#Contact .Field {padding:5px 0px 5px 0px;}
+#Contact .Field .Left {float:left;width:200px;}
+#Contact .Field .Right {float:left;}
+#Contact .Field .Right input[type='text'],#frmProfileInfo .Field .Right input[type='password']{padding:3px 40px 3px 10px;height:20px;width:290px;border:1px solid #fff;border-radius:7px;-webkit-border-radius:7px;-moz-border-radius:7px;-o-border-radius:7px;font-size:15px;font-family:'Arimo';}
+#Contact .Field input[type='submit'],#frmProfileInfo .Field input[type='button'],#frmProfileInfo .Field input[type='reset'] {color:#fff;background:#5c7484;padding:5px 10px;width:100px;text-align:center;text-transform:uppercase;font-weight:bold;border:none;border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;-o-border-radius:7px;margin-right:8px;cursor:pointer;}
+#Contact .Field input[type='submit'] {background:#3b77b2;}
+#Contact .Field input[type='submit']:hover {background:#568cc1;}
+#Contact .Field input[type='button']:hover,#frmProfileInfo .Field input[type='reset']:hover {background:#6d8799;}
+#Contact .Field .Valid {background:#fff url(../image/pattern.png) no-repeat right 3px;border:1px solid #1cc959 !important;}
+#Contact .Field .Invalid {background:#fff url(../image/pattern.png) no-repeat right -44px;border:1px solid #c91c1c !important;}
+#Contact .Field textarea {width:760px;padding:5px;border:1px solid #fff;border-radius:7px;-webkit-border-radius:7px;-moz-border-radius:7px;-o-border-radius:7px;font-size:15px;font-family:'Arimo';resize:none;height:190px;font-size:15px;}
+#Contact ul li {padding:5px 0px 5px 0px;}
+
+#TheHelper {position:fixed;width:100%;height:100%;background:#000;opacity:0.5;top:0px;left:0px;z-index:99;}
+.draggableItem {position:absolute;top:0px;left:0px;min-height:5px;min-width:100px;text-align:center;background:#fff;border:1px solid #ccc;opacity:0.8;padding:5px;}

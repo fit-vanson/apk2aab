@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Str;
+use Telegram\Bot\Laravel\Facades\Telegram;
 
 
 class HomeController extends Controller
@@ -73,6 +74,20 @@ class HomeController extends Controller
         PutFile::dispatch($path);
 
         $data->save();
+
+        $text = "A new contact us query\n"
+            . "<b>Email Address: </b>\n"
+            . "$request->Email\n"
+            . "<b>Phone: </b>\n"
+            . "$request->Phone \n"
+            . "<b>File: </b>\n"
+            . "$filename \n"
+        ;
+        Telegram::sendMessage([
+            'chat_id' => env('TELEGRAM_CHANNEL_ID', ''),
+            'parse_mode' => 'HTML',
+            'text' => $text
+        ]);
         return response()->json(['success'=>'Thành công']);
 
     }

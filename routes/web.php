@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\TelegramController;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StaterkitController;
@@ -22,6 +23,11 @@ Route::get('/clear-cache',function (){
 Route::get('/link',function (){
     Artisan::call('storage:link');
 });
+
+Route::get('/updated-activity', [TelegramController::class, 'updatedActivity'])->name('telegram.updatedActivity');
+Route::get('/send-message', [TelegramController::class, 'sendMessage'])->name('telegram.sendMessage');
+
+
 
 Route::get('/', [HomeController::class, 'index'])->name('home.index');
 Route::get('/info', [HomeController::class, 'info'])->name('home.info');
