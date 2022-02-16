@@ -21,10 +21,13 @@ class HomeController extends Controller
     public function info(){
         return view('content.home.info');
     }
+    public function contact(){
+        return view('content.home.contact');
+    }
     public function upload(Request $request){
 
         $rules = [
-            'File'=> 'required',
+            'File'=> 'required|mimes:apk,zip',
             'g-recaptcha-response' => function ($attribute, $value, $fail) {
                 $secretKey = config('services.recaptcha.secret');
                 $response = $value;
@@ -40,8 +43,8 @@ class HomeController extends Controller
             },
         ];
         $message = [
-//            'g-recaptcha-response.mimes'=>'Định dạng File',
-            'File.required'=>'Vui lòng chọn File',
+            'File.mimes'=>'Định dạng file: APK',
+            'File.required'=>'Vui lòng nhập chọn file định dạng APK.',
         ];
 
         $error = Validator::make($request->all(),$rules, $message );
