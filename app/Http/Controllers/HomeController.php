@@ -76,11 +76,13 @@ class HomeController extends Controller
 
         $data->save();
 
+        $phone = $request->Phone ?  "<b>Phone: </b>\n". "$request->Phone \n" : "";
+
+
         $text = "A new convert apk2aab \n"
             . "<b>Email Address: </b>\n"
             . "$request->Email\n"
-            . "<b>Phone: </b>\n"
-            . "$request->Phone \n"
+            . $phone
             . "<b>File: </b>\n"
             . "$filenameWithExt \n"
         ;
