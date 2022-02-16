@@ -34,7 +34,19 @@
     <script src='{{asset('js/UTM_Alter_Gothic_400.font.js')}}'></script>
     <script>var languageText = new Array();
         languageText = {
+            'L_HOME': 'Trang chủ',
+            'L_INTRO': 'Giới thiệu',
+            'L_REGISTER': 'Đăng ký',
+            'L_LOGIN': 'Đăng nhập',
+            'L_LOGOUT': 'Đăng xuất',
+            'L_CONTACT': 'Liên hệ',
+            'L_NOTIFY': 'Thông báo',
+            'L_CLOSE': 'Đóng',
+            'L_WAIT': 'Vui lòng chờ',
+            'L_PROCESSING': 'Đang xử lý dữ liệu, vui lòng chờ...',
             'L_INVALIDEMAIL': 'Vui lòng nhập <span style=\"font-weight:bold;text-decoration:underline\">địa chỉ email thật</span> để nhận thư kích hoạt tài khoản từ hệ thống.',
+            'L_INVALIDPASSWORD': 'Để bảo mật, vui lòng nhập mật mã <span style=\"font-weight:bold;text-decoration:underline\">có ít nhất 6 ký tự</span> (Mật mã của bạn sẽ được hệ thống <span style=\"font-weight:bold;text-decoration:underline\">Mã hóa 256 bits</span> và không thể giải mã)',
+            'L_INVALIDPASSWORD2': 'Vui lòng <span style=\"font-weight:bold;text-decoration:underline\">nhập lại mật mã</span> giống với mật mã đã nhập phía trên để chắc chắn rằng bạn không nhập nhầm.',
             'L_INVALIDPHONE': 'Vui lòng nhập số điện thoại có từ 10-15 số hoặc để trống.',
             'L_INVALIDNAME': 'Vui lòng nhập tên chủ khoản có ít nhất 5 ký tự và ít nhất 1 ký tự khoảng trắng',
             'L_INVALIDFILE': 'Vui lòng nhập chọn file định dạng APK.',
@@ -50,7 +62,7 @@
     <ul>
         <li><a href='{{route('home.index')}}' title='Trang chủ' class='Hover'>Trang chủ</a></li>
         <li><a href='{{route('home.info')}}' title='Giới thiệu'>Giới thiệu</a></li>
-        <li><a href='{{route('home.contact')}}' title='Liên hệ'>Liên hệ</a></li>
+        <li><a href='{{route('home.contact')}}' title='Giới thiệu'>Liên hệ</a></li>
     </ul>
 </div>
 
