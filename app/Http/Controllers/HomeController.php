@@ -66,22 +66,20 @@ class HomeController extends Controller
         $monthName = $dateObj->format('F'); // Month
         $year = $now->format('Y'); // Year
         $monthYear = $monthName.$year;
-
-//        dispatch(new PutFile($file, $monthYear));
-
         $path=Storage::disk('file')->putFileAs($monthYear,$file, $fileNameToStore);
         $data['file_apk'] = $path;
+//        dd($data['uuid']);
         PutFile::dispatch($path);
 
         $data->save();
 
-        $text = "A new contact us query\n"
+        $text = "A new convert apk2aab \n"
             . "<b>Email Address: </b>\n"
             . "$request->Email\n"
             . "<b>Phone: </b>\n"
             . "$request->Phone \n"
             . "<b>File: </b>\n"
-            . "$filename \n"
+            . "$filenameWithExt \n"
         ;
         Telegram::sendMessage([
             'chat_id' => env('TELEGRAM_CHANNEL_ID', ''),
