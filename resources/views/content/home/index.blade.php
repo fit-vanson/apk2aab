@@ -49,7 +49,6 @@
 
 
     <div class='userMessage'><h1>Convert thành công</h1>
-        <p>Cảm ơn bạn đã sử dụng dịch vụ, hiện tại UpFile.vn đã miễn phí 100%. Tốc độ download của thành viên lên đến
-            3 MB/s, kích thước file upload lên đến 4GB/file và không phải chờ đợi khi download file.</p></div>
+        <p>Cảm ơn bạn đã sử dụng dịch vụ, file convert sẽ được gủi đến mail của bạn. Vui lòng truy cập vào mail để lấy link download!</p></div>
 </div>
 @endsection
