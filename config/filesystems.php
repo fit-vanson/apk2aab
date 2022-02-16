@@ -51,10 +51,10 @@ return [
             'url' => env('AWS_URL'),
             'endpoint' => env('AWS_ENDPOINT'),
         ],
-        'file' => [
+        'file_apk' => [
             'driver' => 'local',
-            'root' => storage_path('app/public/files/'),
-            'url' => env('APP_URL').'/storage/files',
+            'root' => storage_path('app/public/files/apk/'),
+            'url' => env('APP_URL').'/storage/files/apk/',
             'visibility' => 'public',
         ],
 
