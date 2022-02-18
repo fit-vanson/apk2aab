@@ -97,7 +97,7 @@
                                 <tr>
                                     <td class="sm-px-24" style="--bg-opacity: 1; background-color: #ffffff; background-color: rgba(255, 255, 255, var(--bg-opacity)); border-radius: 4px; font-family: Montserrat, -apple-system, 'Segoe UI', sans-serif; font-size: 14px; line-height: 24px; padding: 48px; text-align: left; --text-opacity: 1; color: #626262; color: rgba(98, 98, 98, var(--text-opacity));" bgcolor="rgba(255, 255, 255, var(--bg-opacity))" align="left">
                                         <p style="font-weight: 600; font-size: 18px; margin-bottom: 0;">Detail File  </p>
-                                        <a href="/storage/files/apk/{{$files_info['file_apk']}}"><p style="font-weight: 700; font-size: 20px; margin-top: 0; --text-opacity: 1; color: #ff5850; color: rgba(255, 88, 80, var(--text-opacity));">{{$files_info['basename']}}</p></a>
+                                        <p style="font-weight: 700; font-size: 20px; margin-top: 0; --text-opacity: 1; color: #ff5850; color: rgba(255, 88, 80, var(--text-opacity));">{{$files_info['basename']}}</p>
                                         <ul style="margin-bottom: 24px;">
                                             <li>User: {{$files_info['user']}}</li>
                                             <li>Email: {{$files_info['email']}}</li>
