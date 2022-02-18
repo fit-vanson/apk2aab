@@ -30,4 +30,5 @@ Route::get('/', [HomeController::class, 'index'])->name('home.index');
 Route::get('/info', [HomeController::class, 'info'])->name('home.info');
 Route::get('/contact', [HomeController::class, 'contact'])->name('home.contact');
 Route::post('/upload', [HomeController::class, 'upload'])->name('home.upload');
+Route::get('/detail/{id}', [HomeController::class, 'detail'])->name('home.detail');
 

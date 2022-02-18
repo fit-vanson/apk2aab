@@ -30,7 +30,7 @@
                                                     placeholder='Số điện thoại liên lạc' autocomplete='off'/></div>
                 </div>
                 <div class='Field'>
-                    <div class='leftColumn'>File</div>
+                    <div class='leftColumn'>File  <span style='color:red'> (*)</span></div>
                     <div class='rightColumn'><input type='file' name='File' id="fileapk" data-check='File' accept=".apk"
                                                    autocomplete='off'/></div>
                 </div>

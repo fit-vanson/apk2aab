@@ -44,7 +44,7 @@
             'L_CLOSE': 'Đóng',
             'L_WAIT': 'Vui lòng chờ',
             'L_PROCESSING': 'Đang xử lý dữ liệu, vui lòng chờ...',
-            'L_INVALIDEMAIL': 'Vui lòng nhập <span style=\"font-weight:bold;text-decoration:underline\">địa chỉ email thật</span> để nhận thư kích hoạt tài khoản từ hệ thống.',
+            'L_INVALIDEMAIL': 'Vui lòng nhập <span style=\"font-weight:bold;text-decoration:underline\">địa chỉ email thật</span> để nhận thư từ hệ thống.',
             'L_INVALIDPASSWORD': 'Để bảo mật, vui lòng nhập mật mã <span style=\"font-weight:bold;text-decoration:underline\">có ít nhất 6 ký tự</span> (Mật mã của bạn sẽ được hệ thống <span style=\"font-weight:bold;text-decoration:underline\">Mã hóa 256 bits</span> và không thể giải mã)',
             'L_INVALIDPASSWORD2': 'Vui lòng <span style=\"font-weight:bold;text-decoration:underline\">nhập lại mật mã</span> giống với mật mã đã nhập phía trên để chắc chắn rằng bạn không nhập nhầm.',
             'L_INVALIDPHONE': 'Vui lòng nhập số điện thoại có từ 10-15 số hoặc để trống.',
